@@ -1,10 +1,10 @@
-# Frontend Learnings Log
+# Learnings Log – Frontend Repo
 
 ## Week 1
-- Set up Vite + React project
-- Ran "Hello World" in React
+- Set up repo with Vite + React
+- Learned basics of React components
+- Practiced using VS Code & Git commands
 
 ## Week 2
-- Learned HTML structure
-- Practiced semantic tags
-- Experimented with CSS selectors
+- Diving into JSX and props
+- Built small UI component
