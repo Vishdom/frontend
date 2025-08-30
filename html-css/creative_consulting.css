@@ -1,0 +1,84 @@
+/* Base styles */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+  color: #222;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 3rem 2rem;
+}
+
+/* Header */
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #475569;
+  max-width: 800px;
+  margin-bottom: 2.5rem;
+}
+
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.left-col h2,
+.right-col h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1D4ED8;
+  margin-bottom: 1rem;
+}
+
+/* Impact metrics */
+.impact {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+.impact div {
+  text-align: center;
+}
+.impact h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #F97316;
+  margin: 0;
+}
+.impact p {
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #E5E7EB;
+  padding-top: 1.5rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #444;
+}
+footer a {
+  color: #1D4ED8;
+  text-decoration: none;
+  font-weight: 500;
+}
+footer a:hover {
+  text-decoration: underline;
+}
