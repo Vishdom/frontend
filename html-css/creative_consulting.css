@@ -1,84 +1,82 @@
-/* Base styles */
-body {
-  font-family: Helvetica, Arial, sans-serif;
+/* Reset / Base */
+* {
   margin: 0;
   padding: 0;
-  background: #FFFFFF;
-  color: #222;
-  line-height: 1.6;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #ffffff;
+  color: #222222;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+}
+
+/* Container */
 .container {
   max-width: 1100px;
   margin: auto;
-  padding: 3rem 2rem;
 }
 
-/* Header */
-header h1 {
-  font-size: 2.8rem;
+/* Headings */
+h1 {
+  font-size: 2.2rem;
   font-weight: 700;
   color: #0F172A;
-  margin-bottom: 0.5rem;
-  line-height: 1.2;
+  margin-bottom: 0.3rem;
 }
 
 .subtitle {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 400;
   color: #475569;
-  max-width: 800px;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
-/* Grid layout */
+/* Section headers */
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2.5rem 0 1rem;
+  color: #1D4ED8; /* Blue accent */
+}
+
+/* Cards */
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  margin-bottom: 3rem;
-}
-
-.left-col h2,
-.right-col h2 {
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: #1D4ED8;
-  margin-bottom: 1rem;
-}
-
-/* Impact metrics */
-.impact {
-  display: flex;
   gap: 2rem;
-  margin-top: 1.5rem;
-}
-.impact div {
-  text-align: center;
-}
-.impact h3 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #F97316;
-  margin: 0;
-}
-.impact p {
-  font-size: 0.95rem;
-  color: #475569;
+  margin-bottom: 2rem;
 }
 
-/* Footer */
-footer {
-  border-top: 1px solid #E5E7EB;
-  padding-top: 1.5rem;
-  text-align: center;
-  font-size: 0.95rem;
-  color: #444;
+.card {
+  background: #F8FAFC;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
-footer a {
-  color: #1D4ED8;
-  text-decoration: none;
-  font-weight: 500;
+
+/* Card sub-headers */
+.card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
 }
-footer a:hover {
-  text-decoration: underline;
+
+/* Specific colors for Editorial vs AI */
+.card-left h3 {
+  color: #F97316; /* Orange for storytelling */
 }
+
+.card-right h3 {
+  color: #1D4ED8; /* Blue for AI innovation */
+}
+
+/* Lists */
+ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+ul
